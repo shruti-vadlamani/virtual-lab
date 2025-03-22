@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import NavBar from './components/NavBar';
 import ExperimentSelector from './components/ExperimentSelector';
 import Titration from './experiments/chemistry/Titration';
+import Permanganometry from './experiments/chemistry/Permanganometry';
 import Pendulum from './experiments/physics/Pendulum';
 import AIAssistant from './components/AIAssistant';
 import Footer from './components/Footer';
@@ -16,7 +17,8 @@ function App() {
   
   const experiments = [
     { id: 'titration', name: 'Acid-Base Titration', subject: 'Chemistry', component: Titration },
-    { id: 'pendulum', name: 'Simple Pendulum', subject: 'Physics', component: Pendulum }
+    { id: 'pendulum', name: 'Simple Pendulum', subject: 'Physics', component: Pendulum },
+    { id: 'permanganometry', name: 'Permanganometry', subject: 'Chemistry', component: Permanganometry}
   ];
   
   const handleSelectExperiment = (experimentId) => {
