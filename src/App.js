@@ -6,6 +6,7 @@ import ExperimentSelector from './components/ExperimentSelector';
 import Titration from './experiments/chemistry/Titration';
 import Permanganometry from './experiments/chemistry/Permanganometry';
 import Pendulum from './experiments/physics/Pendulum';
+import SpringOscillation from './experiments/physics/SpringOscillation';
 import AIAssistant from './components/AIAssistant';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -27,7 +28,8 @@ function App() {
   const experiments = [
     { id: 'titration', name: 'Acid-Base Titration', subject: 'Chemistry', component: Titration },
     { id: 'pendulum', name: 'Simple Pendulum', subject: 'Physics', component: Pendulum },
-    { id: 'permanganometry', name: 'Permanganometry', subject: 'Chemistry', component: Permanganometry}
+    { id: 'permanganometry', name: 'Permanganometry', subject: 'Chemistry', component: Permanganometry},
+    { id: 'springoscillation', name:'SpringOscillation', subject:'Physics', component: SpringOscillation}
   ];
 
   const handleSelectExperiment = (experimentId) => {
