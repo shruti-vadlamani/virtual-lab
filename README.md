@@ -1,7 +1,8 @@
 # Virtual-Lab 🧪:
 - A full-stack virtual science laboratory built using **Node.js** and **React**, simulating real-world Physics and Chemistry experiments right in the browser. Each experiment comes with interactive visuals, concept-driven tasks, AI-powered assistance, and test-based evaluations.
 
-![snapshot][image](https://github.com/user-attachments/assets/9b707175-51f5-48ce-adf4-31c5695ce705)
+![snapshot](image.png)![image](https://github.com/user-attachments/assets/b90790de-13a0-49f0-9978-8f5fea85f467)
+
 
 
 # link - https://virtualab.netlify.app/
